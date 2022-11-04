@@ -15,25 +15,25 @@ public class Homework16 {
         Scanner scan = new Scanner(System.in);
         System.out.println("Today is the beginning of your next chapter. Congratulations! Now, please tell me your first and last names.");
         System.out.println("Woman: My first name is: ");
-        String wfname = scan.nextLine();
+        String wfName = scan.nextLine();
         System.out.println("Woman: and my last name is: ");
-        String wlname = scan.nextLine();
+        String wlName = scan.nextLine();
         System.out.println("Man: My first name is: ");
-        String mfname = scan.nextLine();
+        String mfName = scan.nextLine();
         System.out.println("Man: My last name is: ");
-        String mlname = scan.nextLine();
+        String mlName = scan.nextLine();
         System.out.println("Do want to use the \"same last name\" or keep your \"original\" last names? Madam, you can tell me first.");
-        String wanswer = scan.nextLine();
-        if (wanswer.equalsIgnoreCase("original")) {
-            System.out.println("I want to keep my name as it is: " + wfname + " " + wlname);
+        String wAnswer = scan.nextLine();
+        if (wAnswer.equalsIgnoreCase("original")) {
+            System.out.println("I want to keep my name as it is: " + wfName + " " + wlName);
         } else
-            System.out.println("I want to add my husband's last name: " + wfname + " " + wlname + " " + mlname);
+            System.out.println("I want to add my husband's last name: " + wfName + " " + wlName + " " + mlName);
         System.out.println("You sir?");
-        String manswer = scan.nextLine();
-        if (manswer.equalsIgnoreCase("original")) {
-            System.out.println("I want to keep my name as it is: " + mfname + " " + mlname);
+        String mAnswer = scan.nextLine();
+        if (mAnswer.equalsIgnoreCase("original")) {
+            System.out.println("I want to keep my name as it is: " + mfName + " " + mlName);
         } else
-            System.out.println("I want to add my wife's last name: " + mfname + " " + mlname + " " + wlname);
+            System.out.println("I want to add my wife's last name: " + mfName + " " + mlName + " " + wlName);
     }
 }
 

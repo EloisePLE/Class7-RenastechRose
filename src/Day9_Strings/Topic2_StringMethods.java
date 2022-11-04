@@ -60,7 +60,7 @@ trim()	              Removes whitespace from both ends of a string	             
 
 // endsWith()	          Checks whether a string ends with the specified character(s)	    boolean
         String str4 = "This is the String";
-        boolean ends = str4.endsWith("String");
+        boolean ends = str4.endsWith("ing");
         System.out.println("Does String end with ing: "+ends);
 
         //equals()	          Compares two strings. Returns true if the strings are equal,

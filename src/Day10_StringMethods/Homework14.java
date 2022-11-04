@@ -11,7 +11,7 @@ public class Homework14 {
         Scanner scan = new Scanner(System.in);
         System.out.println("Please enter a name: ");
         String name = scan.nextLine();
-        if (name.startsWith("A") && name.endsWith("l")) {
+        if (name.startsWith("A") && name.endsWith("L")) {
             String result = name.replace('A', 'B');
             System.out.println("The result is: "+result);
         } else
