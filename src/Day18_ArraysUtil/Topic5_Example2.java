@@ -32,18 +32,14 @@ public class Topic5_Example2 {
                     char c = sub.charAt(k);
 
                     reverse = reverse + c;
-
                 }
-
                 if (sub.equals(reverse)) {
 
                     count++;
-
                 }
 
-
             }
-            System.out.println("The word:" + word + " has " + count + " Polindrome 4 char substring");
+            System.out.println("The word: " + word + " has " + count + " palindrome of 4 char substring");
 
         }
 
