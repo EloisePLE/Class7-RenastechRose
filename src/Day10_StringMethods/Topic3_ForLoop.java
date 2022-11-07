@@ -27,7 +27,7 @@ public class Topic3_ForLoop {
         }
        // System.out.println("the value of i: "+i); this will error out because i is only accessible inside the loop
 
-        // write a code where you calculate the sum of all the integer numbers between 0 to 20;
+        // write a code where you calculate the sum of all the integer numbers between 0 and 20;
         int result = 0;
         for(int j = 0 ;j<20;j++){
 

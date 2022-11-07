@@ -1,7 +1,6 @@
 package Day11_ForLoopCont;
 
 import java.util.Scanner;
-import java.util.Scanner;
 
 public class Topic1_ForLoops {
 
@@ -12,7 +11,7 @@ public class Topic1_ForLoops {
      */
 
     // write a code where user enters 2 different numbers
-    // and counts the numbers that can be divided by 3 those are in between those numbers
+    // and counts the numbers that divisible by 3 (in between those numbers)
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Please enter the first integer number:");
