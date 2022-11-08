@@ -21,8 +21,8 @@ public class Topic2_ForLoopExample {
                 cnt1++;
             }
         }
-        System.out.println("The total count of Even numbers between "+number1+" and"+number2+" is: "+cnt);
-        System.out.println("The total count of Odd numbers between "+number1+" and"+number2+" is: "+cnt1);
+        System.out.println("The total count of even numbers between "+number1+" and "+number2+" is: "+cnt);
+        System.out.println("The total count of ddd numbers between "+number1+" and "+number2+" is: "+cnt1);
 
     }
 }

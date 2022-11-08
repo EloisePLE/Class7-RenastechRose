@@ -10,9 +10,9 @@ public class Topic8_WhileLoopexample {
             start++; // increase or decrease
         }
 
-        while(true){ // this will be true all the time
-            System.out.println("Ziya"); // this will run until your computer gives up.
-        }
+//        while(true){ // this will be true all the time
+//            System.out.println("Ziya"); // this will run until your computer gives up.
+//        }
 
 
     }

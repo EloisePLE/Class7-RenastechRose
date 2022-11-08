@@ -17,7 +17,7 @@ public class Homework23 {
                 sum++;
             }
         }
-        System.out.println(sum + " times the letter \"a\" and \"A\" appeared in the sentence.");
+        System.out.println(sum + " times the letter \"a\" or \"A\" appeared in the sentence.");
     }
 }
 

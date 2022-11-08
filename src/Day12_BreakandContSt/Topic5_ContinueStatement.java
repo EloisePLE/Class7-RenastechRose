@@ -7,7 +7,7 @@ public class Topic5_ContinueStatement {
     public static void main(String[] args) {
         for (int i = 0; i < 10 ; i++) {
 
-            System.out.println("The i value for each iteration: "+i);
+            //System.out.println("The i value for each iteration: "+i);
 
             if(i == 5){
                 continue;

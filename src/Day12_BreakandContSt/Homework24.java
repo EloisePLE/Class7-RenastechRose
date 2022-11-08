@@ -20,7 +20,7 @@ public class Homework24 {
         }
         if(word.equalsIgnoreCase(check))
         {
-            System.out.println("The word \""+check+"\" is a palindrome.");
+            System.out.println("The word \""+word+"\" is a palindrome.");
         } else
             System.out.println("This word is not a palindrome.");
     }

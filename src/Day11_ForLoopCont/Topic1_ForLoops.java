@@ -22,7 +22,7 @@ public class Topic1_ForLoops {
         for (int i = num1; i <= num2; i++) { // i++ = i=i+1;
             //int count = 0; //this will set the count to be zero everytime code get executed
             if (i % 3 == 0) {
-                System.out.println(i + " can be divided by 3");
+                System.out.println(i + " is divisible by 3");
                 count++;// count = count +1;
             }
 

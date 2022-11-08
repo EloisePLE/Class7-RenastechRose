@@ -13,7 +13,7 @@ public class Homework25 {
         System.out.println("Please, enter an integer number: ");
         int num = scan.nextInt();
         int sum = 0;
-        for (int i = 0; i <= num; i++) {
+        for (int i = 1; i <= num; i++) {
             if (i % 2 != 0) {
                 if (i == 9 || i == 11 || i == 23 || i == 35) {
                     continue;

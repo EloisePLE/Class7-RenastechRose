@@ -16,6 +16,7 @@ public class Topic4_BreakStexample {
         String rename = "";
         for (int i = 0; i < name.length(); i++) {// H I B A == length =4
 
+
             //rename=rename+name.charAt(i); this will add l then break it
 
             if(name.charAt(i)=='l' || name.charAt(i)=='L'){

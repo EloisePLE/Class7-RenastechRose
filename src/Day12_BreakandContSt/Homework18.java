@@ -11,9 +11,10 @@ public class Homework18 {
         System.out.println("Please enter an integer number: ");
         int number = scan.nextInt();
 
-        int i, fact = 1;
-        for (i = 1; i <= number; i++) {
+        int fact = 1;
+        for (int i = 1; i <= number; i++) {
             fact = fact * i;
+
         }
         System.out.println("Factorial of "+number+" is: "+fact);
     }
