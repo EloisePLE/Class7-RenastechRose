@@ -22,6 +22,6 @@ public class Topic1_WhileLoop {
             i++; // if we do not increase the num1 this loop will infinite
             System.out.println("the num1 value for each iteration: "+i);
         }
-        System.out.println("The count of even numbers "+count+"the i value: "+i+" the num1 value: "+num1+" the num2 value "+num2);
+        System.out.println("The count of even numbers "+count+"; the i value: "+i+"; the num1 value: "+num1+"; the num2 value "+num2);
     }
 }
