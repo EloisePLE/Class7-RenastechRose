@@ -3,7 +3,6 @@ package CustomClasses;
 public class AnimalClass {
     public String AnimalName;
     public String AnimalType;
-
     public String AnimalColor;
 
     ///This is a Constructor. This will be called when you create Class

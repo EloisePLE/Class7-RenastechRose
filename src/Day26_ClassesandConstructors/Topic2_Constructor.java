@@ -15,7 +15,6 @@ public class Topic2_Constructor {
 
         MyEmployee.SetEmployeeSIN("123 456 789");
 
-
     }
 
 }

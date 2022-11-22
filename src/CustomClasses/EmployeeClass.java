@@ -24,7 +24,6 @@ public class EmployeeClass {
         Department = param3;
     }
 
-
     //Methods
     /// SetEmployeeSIN : This method will set employee's SIN number. Return type = void
     /// @param1 : this is a String type parameter
