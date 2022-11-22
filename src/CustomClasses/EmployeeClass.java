@@ -6,6 +6,8 @@ public class EmployeeClass {
     public String Surname;
     public String Department;
 
+    public AddressClass HomeAddress;
+
     private String SIN;
 
     //Constructors

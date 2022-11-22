@@ -3,8 +3,15 @@ package CustomClasses;
 public class AnimalClass {
     public String AnimalName;
     public String AnimalType;
+
     public String AnimalColor;
 
+    public int ID;
+    public int NumberOfLegs;
+
+    public void Eat(){
+
+    }
     ///This is a Constructor. This will be called when you create Class
     ///@param1 is String variable and we will use it as AnimalName
     ///@param2 is String variable and we will use it as AnimalType
