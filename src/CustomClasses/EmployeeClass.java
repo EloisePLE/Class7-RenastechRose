@@ -11,7 +11,8 @@ public class EmployeeClass {
     private String SIN;
 
     //Constructors
-    public EmployeeClass(){
+    public EmployeeClass() {
+        HomeAddress = new AddressClass();
         System.out.println("You created an employee");
     }
 
@@ -20,6 +21,7 @@ public class EmployeeClass {
     ///@param2 is a String variable that we will use as Surname
     ///@param3 is a String variable that we will use as Department
     public EmployeeClass(String param1, String param2, String param3){
+        HomeAddress = new AddressClass();
         System.out.println("You created an employee with 3 parameters");
         Name = param1;
         Surname = param2;
