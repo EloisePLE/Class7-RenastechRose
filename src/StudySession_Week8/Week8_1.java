@@ -2,7 +2,6 @@ package StudySession_Week8;
 
 public class Week8_1 {
     //static String input = "BIBOBOBPIPDUD";
-
     static int value = 10;
 
     public static void main(String[] args) {
@@ -44,7 +43,6 @@ public class Week8_1 {
 
     public static void reduceNumber() {
         value -= 2;
-
     }
 
     public static void calculatePalindrome() {
@@ -56,12 +54,9 @@ public class Week8_1 {
             if (temp.equals(reverseString(temp))) {
                 count++;
             }
-
-
         }
         helloWorld();
         System.out.println("Palindrome count is: " + count);
-
     }
 
     public static void helloWorld() {

@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Week7_1 {
     public static void main(String[] args) {
-
+    //Merge Arrays
         int[] intArray = new int[4];
 
         System.out.println(Arrays.toString(intArray));
@@ -21,7 +21,6 @@ public class Week7_1 {
         System.arraycopy(intArray1, 0, intArray33, 0, intArray1.length);
         System.arraycopy(intArray2, 0, intArray33, intArray1.length, intArray2.length);
 
-
         for (int i = 0; i < totalLength; i++) {
 
             if (i < intArray1.length) {
@@ -30,7 +29,6 @@ public class Week7_1 {
                 intArray3[i] = intArray2[i - intArray1.length];
             }
         }
-
         System.out.println("*******************");
         System.out.println(Arrays.toString(intArray3));
 
@@ -59,18 +57,13 @@ public class Week7_1 {
 
                     notSorted = true;
                 }
-
             }
-
         }
-
         System.out.println("******************* Sorting **********");
-
         /*
           int[] makeAscending = {6,1,823,-12,8,12,-123,25,7,2,9};
           Try to find the second max element
          */
         System.out.println(makeAscending[makeAscending.length - 2]);
     }
-
 }
