@@ -29,7 +29,7 @@ public class BankAccount {
     /// Method name = Withdrawal
 
     // PublicOrPrivate StaticOrNot ReturnType MethodName(Parameter1Type Parameter1Name, .........)
-    public void Withdrawal(double param1) throws InsufficentException {
+    public void Withdrawal(double param1) throws InsufficentExceptionEx {
         if (Balance < param1){
             /*
             try
@@ -38,7 +38,7 @@ public class BankAccount {
             throw
             throws
              */
-            throw new InsufficentException();
+            throw new InsufficentExceptionEx();
         }
         else {
             Balance = Balance - param1;

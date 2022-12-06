@@ -11,7 +11,7 @@ public class Topic1_ExceptionsRecap {
 
         try{
             MyAccount.Withdrawal(1500);
-        }catch (InsufficentException MyError){
+        }catch (InsufficentExceptionEx MyError){
             System.out.println(MyError.Message);
         }
 

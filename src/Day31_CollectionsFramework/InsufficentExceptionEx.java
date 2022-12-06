@@ -1,6 +1,8 @@
 package Day31_CollectionsFramework;
 
-public class InsufficentException {
+public class InsufficentExceptionEx extends Throwable {
+    public boolean Message;
+
     public class InsufficentException extends Exception {
         String Message;
 
