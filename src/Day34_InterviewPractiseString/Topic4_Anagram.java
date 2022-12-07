@@ -45,12 +45,16 @@ public class Topic4_Anagram {
         if (Word1.length() != Word2.length()) {
             return false;
         } else {
+
             // Listen - Silent
             // Players - parsley
             // Triangle - Integral
             // needs - dense
 
             // meat - team
+            // get lowercase of them
+            Word1 = Word1.toLowerCase();
+            Word2 = Word2.toLowerCase();
 
             for (int i = 0; i < Word1.length(); i++) {
                 char MyChar = Word1.charAt(i);
@@ -64,6 +68,5 @@ public class Topic4_Anagram {
             }
             return Word2.isEmpty();
         }
-
     }
 }

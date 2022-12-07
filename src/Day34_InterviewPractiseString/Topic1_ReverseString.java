@@ -8,13 +8,11 @@ public class Topic1_ReverseString {
         System.out.println("*********");
         System.out.println(RegularWayWithForEach("This is an example"));
     }
-
     public static String USingStringBuilder(String param1) {
         StringBuilder SB = new StringBuilder(param1);
         SB.reverse();
         return SB.toString();
     }
-
     public static String RegularWay(String param1) {
         char[] MyCharArray = param1.toCharArray();
         String ReversedString = "";
@@ -24,7 +22,6 @@ public class Topic1_ReverseString {
 
         return ReversedString;
     }
-
     public static String RegularWayWithForEach(String param1) {
         char[] MyCharArray = param1.toCharArray();
 
