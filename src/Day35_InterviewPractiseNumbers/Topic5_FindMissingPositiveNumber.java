@@ -10,7 +10,7 @@ public class Topic5_FindMissingPositiveNumber {
         //{-2,-9,0,55,6}
         //{-9,-2,0,6,55}
 
-        int[] data = {3, 8, 4, 9, 1, 7, 5};
+        int[] data = {-1, -2, -3, -4};
         System.out.println(UsingAnotherArray(data));
     }
 
@@ -26,7 +26,7 @@ public class Topic5_FindMissingPositiveNumber {
 
     public static int UsingAnotherArray(int[] param1) {
         //{3,8,4,9,1,7,5}
-        //{true, false, true, true, true,false, true  }
+        //{true, false, true, true, true,false, true}
         //{1,    2,     3,    4,    5,   6,     7}
         boolean[] MyBooleanArray = new boolean[param1.length];
 
